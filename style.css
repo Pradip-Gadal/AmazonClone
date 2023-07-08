@@ -12,41 +12,33 @@
    display: flex; 
 }
 
-.nav-logo{
+#amazon-logo{
     height: 60px;
     width: 113px;
+    align-items: center;
+    display: flex;
 }
 
-.logo{
-    height:49px;
-    width: 99px;
-    border: border-box;
-    margin: 1px;
-    padding: 1px 8px 0px 6px;
+.hover{
+    margin-top: 8px;
+    align-items: center;
+
+}
+.hover:hover{
+    border: 1px #d6d6d6 solid;
+}
+
+#logo{
+    height:50px;
+    width: 113px;
     background-image: url("amazon_logo.png");
     background-size: cover;
-}
+    
+} 
 
-.deliver-to_logo_address{
-    height:60px;
-    width: 88px;
-    display: flex;
-    text-align: center;
-}
-
-#location-logo{
-    height:18px;
-    width:15px;
-    margin-top: 8px;
-}
-
-#deliver-to_address{
-    height: 50px;
-    width: 68px;
-    margin: 5px 2px 5px 0px;
-    padding: 0px 9px;
-    color: #d6d6d6;
-    font-size: 14px;
+#deliver-to_logo_address{
+    height: 60px;
+    width: 113px;
+    align-items: center;
     display: flex;
 }
-
