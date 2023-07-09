@@ -3,14 +3,16 @@
     border: border-box;
     font-family: Arial;
 }
-
+/* nevbar section */
 .navbar{
    height: 60px;
    background-color: #0f1111;
-   color: white;
    align-items: center;
-   display: flex; 
+   display: flex;
+   justify-content: space-evenly; 
 }
+
+/* Amazon logo section */
 
 #amazon-logo{
     height: 60px;
@@ -19,26 +21,93 @@
     display: flex;
 }
 
-.hover{
-    margin-top: 8px;
+#logo{
+    margin: 1px;
+    height:50px;
+    width: 113px;
     align-items: center;
+    background-image: url("amazon_logo.png");
+    background-size: cover; 
+} 
 
-}
-.hover:hover{
+.hover_box:hover{
     border: 1px #d6d6d6 solid;
 }
 
-#logo{
-    height:50px;
-    width: 113px;
-    background-image: url("amazon_logo.png");
-    background-size: cover;
-    
-} 
+/* Delivery to Address section */
 
 #deliver-to_logo_address{
     height: 60px;
-    width: 113px;
+    width: 90px;
     align-items: center;
     display: flex;
+    color: white;
+}
+
+#deliver-to_logo_address_div{
+    height: 50px;
+    width: 88px;
+    margin: 1px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+#location-logo{
+    height: 18px;
+    width: 15px;
+    margin: 15px 0px 0px 0px;
+    padding-left: 8px;
+}
+
+#deliver-to{
+    font-size: 12px;
+    padding-top: 5px;
+    color: #d6d6d6;
+}
+
+/* Search_section */
+
+
+#nev-search-select{
+    height: 60px;
+    width: 665px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#nev_select{
+    height: 39px;
+    width: 50px;
+    position: relative;
+    left: 2px;
+    background-color: #d6d6d6;
+    text-align: center;
+    border-right: none;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 0%;
+}
+
+#nev_search_box{
+    width: 100%;
+    height: 35px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0%;
+}
+
+#search_icon{
+    height: 37.5px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #febd68;
+    position: relative;
+    top: 0px;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
 }
