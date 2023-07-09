@@ -28,10 +28,9 @@
     width: 113px;
     display: flex;
     position: relative;
-    bottom: 2px;
     align-items: center;
-    background-image: url("amazon_logo.png");
-    background-size: cover; 
+    background-image: url("amazon_logo_og.png");
+    background-size: cover;
 } 
 
 .hover_box:hover{
@@ -78,33 +77,34 @@
 
 
 #nev-search-select{
-    height: 60px;
-    width: 665px;
-    margin: 0px 10px;
+    height: 39px;
+    width: 850px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 6px;
+    padding-right: 0.6px;
 }
 
 #nev_select{
     height: 39px;
     width: 50px;
     position: relative;
-    left: 2px;
     background-color: #d6d6d6;
     text-align: center;
     border-right: none;
-    border-top-left-radius: 15%;
+    border-top-left-radius: 10%;
     border-top-right-radius: 0%;
-    border-bottom-left-radius: 15%;
+    border-bottom-left-radius: 10%;
     border-bottom-right-radius: 0%;
 }
 
 #nev_search_box{
     width: 100%;
     height: 35px;
-    border: none;
+    border: 0px;
     font-size: 1rem;
+    font-weight: 500;
     border-radius: 0%;
 }
 
@@ -116,24 +116,30 @@
     justify-content: center;
     background-color: #febd68;
     position: relative;
-    top: 0px;
-    border-top-right-radius: 15%;
-    border-bottom-right-radius: 15%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    color: #0f1111;
+    font-size: 20px;
+}
+
+.hover_box_search:hover{
+    border: 2px orange solid;
 }
 
 /* hello, sign_in account and list */
 
 #nev_sign-in_account{
     height: 60px;
-    width: 140px;
+    width: 160px;
     display: flex;
     align-items: center;
 }
 
 #sign-in_account{
     height: 50px;
-    width: 130px;
+    width: 140px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
 }
@@ -144,11 +150,60 @@
 
 #account{
     font-weight: 600;
+    color: white;
 }
+
+/* Return and Orders */
 
 #nev-return_and_order{
     height: 60px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+#return_and_order{
+    height: 50px;
     width: 100px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#return{
+    font-size: 12px;
+}
+
+#Orders{
+    font-weight: 600;
+    color: white;
+}
+
+/* Cart */
+
+#nev-cart-icon_cart{
+    height: 60px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+#cart-icon_cart{
+    height: 50px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#cart-icon{
+    margin: 0px 0px 0px 10px;
+    scale: 1.5;
+}
+
+#cart{
+    margin: 10px 0px 0px 8px;
+    font-weight: 600;
 }
