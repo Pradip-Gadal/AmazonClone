@@ -10,6 +10,7 @@
    align-items: center;
    display: flex;
    justify-content: space-evenly; 
+   color: #d6d6d6;
 }
 
 /* Amazon logo section */
@@ -25,6 +26,9 @@
     margin: 1px;
     height:50px;
     width: 113px;
+    display: flex;
+    position: relative;
+    bottom: 2px;
     align-items: center;
     background-image: url("amazon_logo.png");
     background-size: cover; 
@@ -51,6 +55,11 @@
     display: flex;
     align-items: center;
 }
+
+#address{
+    font-weight: 600;
+}
+/* Delivery to location_logo */
 
 #location-logo{
     height: 18px;
@@ -110,4 +119,36 @@
     top: 0px;
     border-top-right-radius: 15%;
     border-bottom-right-radius: 15%;
+}
+
+/* hello, sign_in account and list */
+
+#nev_sign-in_account{
+    height: 60px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+}
+
+#sign-in_account{
+    height: 50px;
+    width: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#sign_in{
+    font-size: 12px;
+}
+
+#account{
+    font-weight: 600;
+}
+
+#nev-return_and_order{
+    height: 60px;
+    width: 100px;
+    display: flex;
+    align-items: center;
 }
