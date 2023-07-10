@@ -444,7 +444,6 @@ body{
 }
 
 /* footer */
-/* back to top section */
 
 #footer{
     height: 450px;
@@ -453,6 +452,8 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+
+/* back to top section */
 
 #back_to_top_div{
     height: 50px;
@@ -464,8 +465,10 @@ body{
     justify-content: center;
 }
 
+/* info footer */
+
 #info_footer{
-    height: 450px;
+    height: 300px;
     width: 100%;
     background-color: #232F3E;
     display: flex;
@@ -495,3 +498,96 @@ body{
 .fotter-info p{
     font-weight: 600;
 }
+
+/* last footer */
+
+#last_footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px #d6d6d6 solid;
+}
+
+#amazon_footer_logo{
+    height: 60px;
+    width: 100px;
+    margin-top: 10px;
+    background-image: url("amazon_logo_og.png");
+    background-size: cover;
+}
+
+/* language currency country div */
+
+#lang-curr-country{
+    height: 60px;
+    width: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #d6d6d6;
+    margin-left: 5%;
+}
+
+#language{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background: none;
+    color: #edebeb;
+    border: 1px #d6d6d6 solid;
+    border-radius: 4%;
+}
+
+#currency{
+    height: 40px;
+    width: 250px;
+    background-color: none;
+    border: 1px #edebeb solid;
+    border-radius: 4%;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#country{
+    height: 40px;
+    width: 150px;
+    border: 1px #edebeb solid;
+    border-radius: 4%;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* copyWRIGHT tAG */
+
+#copyRight{
+    height: 50px;
+    width: 100%;
+    background-color: #131a22;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
+
+#copyRight a{
+    margin: 7px;
+    text-decoration: none;
+    color: white;
+}
+
+#copyRight p{
+    margin-top: 10px;
+}
+
+#copyRight a:hover{
+    text-decoration: underline;
+}
+
+
+/* The end */
