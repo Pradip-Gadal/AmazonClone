@@ -267,3 +267,12 @@
 #shop-deal-in-electronics p:hover{
     border: 1.5px white solid;
 }
+
+/* Main part */
+/* hero section */
+
+#hero-section{
+    height: 600px;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+}
