@@ -447,7 +447,7 @@ body{
 /* back to top section */
 
 #footer{
-    height: 500px;
+    height: 450px;
     width: 100%;
     background-color: #232F3E;
     display: flex;
@@ -455,9 +455,9 @@ body{
 }
 
 #back_to_top_div{
-    height: 40px;
+    height: 50px;
     width: 100%;
-    background-color: green;
+    background-color: #2f4356;
     color: white;
     display: flex;
     align-items: center;
@@ -467,14 +467,31 @@ body{
 #info_footer{
     height: 450px;
     width: 100%;
-    background-color: green;
+    background-color: #232F3E;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .fotter-info{
-    height: 85%;
-    width: 25%;
-    background-color: #febd68;
+    height: 75%;
+    width: 10%;
+    color: white;
+    padding-left: 10px;
+}
+
+.fotter-info a{
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    padding: 10px 0px 0px 0px;
+    color: #d6d6d6;
+}
+
+.fotter-info a:hover{
+    text-decoration: underline;
+}
+
+.fotter-info p{
+    font-weight: 600;
 }
