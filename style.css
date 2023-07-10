@@ -3,6 +3,10 @@
     border: border-box;
     font-family: Arial;
 }
+
+body{
+    background-color: #d6d6d6;
+}
 /* nevbar section */
 .navbar{
    height: 60px;
@@ -269,10 +273,15 @@
 }
 
 /* Main part */
+
+main{
+    padding: 0px 70px;
+}
+
 /* hero section */
 
 #hero-section{
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-image: url("hero_image.jpg");
     background-size: cover;
@@ -290,7 +299,7 @@
 
 #hero_message{
     height: 40px;
-    width: 95%;
+    width: 98%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -299,27 +308,141 @@
 
 #hero_message a{
     text-decoration: none;
+    color: rgb(6, 133, 80);
+}
+
+#hero_message a:hover{
+    text-decoration: underline;
+    color: orange;
 }
 
 /* section_pack like electronics, health,etc. */
 
 #section_pack{
-    background-color: green;
     height: 900px;
     width: 100%;
-    margin-top: 20px;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: start;
+    padding: 20px 0px 0px 0px;
 }
 
 /* For sections */
 
 .section{
-    height: 40%;
-    width: 22%;
+    height: 50%;
+    width: 23%;
+    margin: 14.5px;
+    /* margin: 15px; */
     background-color: white;
-    margin: 2.5%;
     display: flex;
     flex-wrap: wrap;
 }
 
+/* section_title */
+
+#title-part{
+    height: 25px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 5px 0px;
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: 750;
+}
+/* image_part */
+#image-part{
+    height: 340px;
+    width: 100%;
+    margin: 0px 18px;
+}
+
+#electronics-section #image-part{
+    background-image: url("electronics_pic.jpeg");
+    background-size: cover;
+}
+
+#beauti-section #image-part{
+    background-image: url("beauti.jpg");
+    background-size: cover;
+}
+
+#clothes-section #image-part{
+    background-image: url("clothing.jpg");
+    background-size: cover;
+}
+
+#shop_pet_suppliers #image-part{
+    background-image: url("pet.jpg");
+    background-size: cover;
+}
+
+#health-section #image-part{
+    background-image: url("health.jpg");
+    background-size: cover;
+}
+
+#new_arrivals_in_toys #image-part{
+    background-image: url("toys.jpg");
+    background-size: cover;
+}
+
+/* gaming accessories div division */
+
+#gaming_accessories #image-part{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+#gaming_accessories #image-part div{
+    height: 49%;
+    width: 49%;
+    margin-top: 5px;
+}
+
+/* div inside gaming accessories */
+#div1{
+    background-image: url("e-s.webp");
+    background-size: cover;
+}
+
+#div2{
+    background-image: url("gs-m.jpeg");
+    background-size: cover;
+}
+
+#div3{
+    background-image: url("es-3.webp");
+    background-size: cover;
+}
+#div4{
+    background-image: url("es2.webp");
+    background-size: cover;
+}
+
+#stationery_items #image-part{
+    background-image: url("stationery.png");
+    background-size: cover;
+}
+
+
+/* see more part */
+
+#see_more-part{
+    height: 20px;
+    width: 100%;
+    font-size: 14px;
+    margin: 10px 0px 20px 20px;
+}
+
+#see_more-part a{
+    text-decoration: none;
+    color: rgb(6, 133, 80);
+}
+
+#see_more-part a:hover{
+    text-decoration: underline;
+    color: orange;
+}
