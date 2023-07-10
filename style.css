@@ -464,3 +464,17 @@ body{
     justify-content: center;
 }
 
+#info_footer{
+    height: 450px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fotter-info{
+    height: 85%;
+    width: 25%;
+    background-color: #febd68;
+}
